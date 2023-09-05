@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-input-icon-right>.p-inputtext {
+    padding-right: 2.5rem;
+    width: 100%;
+}
+label{
+    font-weight: bold!important;
+}
+.p-toast-message-content {
+    display: flex!important;
+    align-items: center!important;
+    gap: 10px;
+}
+.p-dialog .p-dialog-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.logout-header .p-dialog-header-icons{
+    display: none!important;
+}
+.p-dialog-header .p-dialog-header-icons .p-dialog-header-close{
+    box-shadow: 0 0 0 1px #6366F1;
+}
+.p-dialog-title{
+    text-align: center;
+}
+.prime-pass i{
+    margin-top: -0.8rem!important;
+}
+.prime-pass i svg{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.delete_confirmation .p-dialog-header-icons{
+    display: none!important;
+}
